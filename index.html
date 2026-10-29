@@ -61,8 +61,8 @@ header{display:flex;justify-content:space-between;align-items:center;gap:16px;pa
 <script>
 // IMPORTANT: Replace these two placeholders with the URL and PUBLIC publishable/anon key
 // from your separate Storylines Supabase project. Never use a service_role/secret key here.
-const SUPABASE_URL = "PASTE_STORYLINES_SUPABASE_PROJECT_URL_HERE";
-const SUPABASE_PUBLISHABLE_KEY = "PASTE_STORYLINES_SUPABASE_PUBLISHABLE_KEY_HERE";
+const SUPABASE_URL = "sb_publishable_a-0kPmOP-8w072GJYR33KA_iAWhqITu";
+const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_a-0kPmOP-8w072GJYR33KA_iAWhqITu";
 const SUPABASE_CONFIGURED = SUPABASE_URL.startsWith("https://") && !SUPABASE_URL.includes("PASTE_") && SUPABASE_PUBLISHABLE_KEY.length > 20 && !SUPABASE_PUBLISHABLE_KEY.includes("PASTE_");
 const $ = id => document.getElementById(id);
 let db=null, session=null, isAdmin=false, activeGameId=null, games=[], allAdminGames=[], allAdminEvents=[], publicEvents=[];
